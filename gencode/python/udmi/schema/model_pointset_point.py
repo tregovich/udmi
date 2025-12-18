@@ -17,7 +17,7 @@ class Type(Enum):
     """
 
     string = 'string'
-    integer = 'integer'
+    boolean = 'boolean'
     number = 'number'
 
 

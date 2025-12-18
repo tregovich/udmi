@@ -229,7 +229,7 @@ public class PointPointsetModel {
     public enum Type {
 
         STRING("string"),
-        INTEGER("integer"),
+        BOOLEAN("boolean"),
         NUMBER("number");
         private final java.lang.String value;
         private final static Map<java.lang.String, PointPointsetModel.Type> CONSTANTS = new HashMap<java.lang.String, PointPointsetModel.Type>();
