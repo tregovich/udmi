@@ -13,6 +13,6 @@ from ._base import DataModel
 class PointPointsetConfig(DataModel):
     ref: Optional[str] = None
     units: Optional[str] = None
-    set_value: Optional[Union[str, int, float]] = None
+    set_value: Optional[Union[str, bool, int, float]] = None
     stop_time: Optional[str] = None
     cov_increment: Optional[float] = None
