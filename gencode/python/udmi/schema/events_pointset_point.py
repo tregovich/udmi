@@ -15,4 +15,4 @@ class PointPointsetEvents(DataModel):
     Object representation for for a single point
     """
 
-    present_value: Optional[Union[str, int, bool, float]] = None
+    present_value: Optional[Union[str, bool, float]] = None
