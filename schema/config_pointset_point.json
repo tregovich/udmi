@@ -19,7 +19,6 @@
        "oneOf": [
        	 { "type": "string" },
          { "type": "boolean" },
-       	 { "type": "integer" },
        	 { "type": "number" }		
        ],
       "examples": [22.4]
